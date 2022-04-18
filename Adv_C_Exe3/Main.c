@@ -24,7 +24,9 @@ void main()
 	str[5] = '\0';
 	printf("The Stack data was %s and Now the Stack is Empty\n", str);
 	//////////////////////Checking flipBetweenHashes
-	//flipBetweenHashes("ab#dc#ef\n");
+	printf("the string was *ab#dc#ef* and now: ");
+	flipBetweenHashes("ab#dc#ef");
+	printf("\n");
 	///////////////////Checking isPAlindrome
 	push(s1, 'A');
 	push(s1, 'B');
@@ -87,6 +89,7 @@ void main()
 {
 		printf("%d ", arr[i]);
 }
+	printf("\n");
 	/////////////////Checking sortKidsFirst///////////////////
 	enqueue(q1, 6);
 	enqueue(q1, 1);
@@ -105,6 +108,8 @@ void main()
 	{
 		printf("%d ", arr[i]);
 	}
+	printf("\n");
+
 	/////////////////Checking destroQueue///////////////////
 	enqueue(q1, 6);
 	enqueue(q1, 1);
